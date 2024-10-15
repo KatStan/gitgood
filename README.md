@@ -10,6 +10,7 @@ git diff (our current literal state + last COMMIT as default, can choose commit 
 git log
 git switch - don;t knoe yet
 git checkout commit_id filename (transitions between points in time of our repository, like the head is moved, filename optional) -> you haven't lost anything!
+git checkout HEAD~1 does as if a -1 commit, x commits behind HEAD
 
 ## Section 2
 To git pull
